@@ -10,8 +10,11 @@ function Hero() {
           <h1>React.TS.JS.Node.js</h1>
           <img src="" alt="" />
           <p>I am junior web developer</p>
+          <button>Learn More</button>
         </LeftContent>
-        <RightContent></RightContent>
+        <RightContent>
+          <img src="../../../public/img/moon.png" alt="" />
+        </RightContent>
       </Container>
     </Section>
   );
