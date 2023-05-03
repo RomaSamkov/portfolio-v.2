@@ -20,3 +20,7 @@ export const Container = styled.div`
 export const LeftContent = styled.div``;
 
 export const RightContent = styled.div``;
+export const Img = styled.img`
+  width: 200px;
+  height: 100px;
+`;
