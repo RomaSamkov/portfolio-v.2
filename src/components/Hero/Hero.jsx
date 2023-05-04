@@ -1,5 +1,14 @@
 import Navbar from "../Navbar/Navbar";
-import { Container, LeftContent, RightContent, Section } from "./Hero.styled";
+import {
+  Button,
+  Container,
+  LeftContent,
+  Picture,
+  RightContent,
+  Section,
+  SubTitle,
+  Title,
+} from "./Hero.styled";
 
 function Hero() {
   return (
@@ -7,13 +16,17 @@ function Hero() {
       <Navbar />
       <Container>
         <LeftContent>
-          <h1>React.TS.JS.Node.js</h1>
+          <Title>
+            React.TS.JS.
+            <br />
+            Node.js
+          </Title>
           <img src="" alt="" />
-          <p>I am junior web developer</p>
-          <button>Learn More</button>
+          <SubTitle>I am junior web developer</SubTitle>
+          <Button>Learn More</Button>
         </LeftContent>
         <RightContent>
-          <img src="../../../public/img/moon.png" alt="" />
+          <Picture src="/img/laptop.png" alt="" />
         </RightContent>
       </Container>
     </Section>
