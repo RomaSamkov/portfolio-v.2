@@ -41,7 +41,6 @@ to{
 export const RightContent = styled.div`
   position: relative;
   flex: 3;
-  animation: ${animate} 2s infinite ease alternate;
 `;
 
 export const Img = styled.img`
@@ -49,21 +48,6 @@ export const Img = styled.img`
   height: 100px;
 `;
 
-// export const Button = styled.button`
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   width: 180px;
-//   cursor: pointer;
-//   border: none;
-//   border-radius: 12px;
-//   padding: 5px;
-//   background-color: #e03ee6;
-//   &:hover {
-//     color: #fff;
-//     background-color: rebeccapurple;
-//   }
-// `;
 export const Button = styled.button`
   width: 180px;
   position: relative;
@@ -127,4 +111,5 @@ export const Picture = styled.img`
   left: 0;
   right: 0;
   margin: auto;
+  animation: ${animate} 2s infinite ease alternate;
 `;
