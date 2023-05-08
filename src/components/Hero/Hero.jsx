@@ -33,9 +33,9 @@ function Hero() {
             <OrbitControls enableZoom={false} autoRotate />
             <ambientLight intensity={1} />
             <directionalLight position={[3, 2, 1]} />
-            <Sphere args={[1, 100, 200]} scale={2.4}>
+            <Sphere args={[1, 100, 200]} scale={2.6}>
               <MeshDistortMaterial
-                color="lightgray"
+                color="#31204d"
                 attach="material"
                 distort={0.5}
                 speed={2}
