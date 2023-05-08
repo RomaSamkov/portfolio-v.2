@@ -1,4 +1,7 @@
+/* eslint-disable react/no-unknown-property */
 import Navbar from "../Navbar/Navbar";
+import { Canvas } from "@react-three/fiber";
+import { MeshDistortMaterial, OrbitControls, Sphere } from "@react-three/drei";
 import {
   Button,
   Container,
@@ -26,6 +29,19 @@ function Hero() {
           <Button>Learn More</Button>
         </LeftContent>
         <RightContent>
+          <Canvas>
+            <OrbitControls enableZoom={false} autoRotate />
+            <ambientLight intensity={1} />
+            <directionalLight position={[3, 2, 1]} />
+            <Sphere args={[1, 100, 200]} scale={2.4}>
+              <MeshDistortMaterial
+                color="lightgray"
+                attach="material"
+                distort={0.5}
+                speed={2}
+              />
+            </Sphere>
+          </Canvas>
           <Picture src="/img/laptop.png" alt="" />
         </RightContent>
       </Container>
