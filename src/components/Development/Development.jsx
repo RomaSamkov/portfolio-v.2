@@ -2,7 +2,7 @@ import { Suspense } from "react";
 import { OrbitControls } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 import Atom from "../Atom/Atom";
-import { Desc } from "./DEvelopment.styled";
+import { Desc } from "./Development.styled";
 
 const Development = () => {
   return (
