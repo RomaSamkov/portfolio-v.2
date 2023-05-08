@@ -3,7 +3,7 @@ import { OrbitControls, Stage } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 
 import Shoe from "../Shoe/Shoe";
-import { Desc } from "../Development/DEvelopment.styled";
+import { Desc } from "../Development/Development.styled";
 
 const ProductDesign = () => {
   return (
