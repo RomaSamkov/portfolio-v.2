@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unknown-property */
 import { Canvas } from "@react-three/fiber";
-import { Container } from "./ThreeJSComponent.styled";
 import { OrbitControls } from "@react-three/drei";
+import { Container } from "./ThreeJSComponent.styled";
 import Cube from "../Cube/Cube";
 
 function ThreeJSComponent() {
