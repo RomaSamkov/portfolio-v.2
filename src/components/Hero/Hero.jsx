@@ -33,14 +33,14 @@ function Hero() {
             <OrbitControls enableZoom={false} autoRotate />
             <ambientLight intensity={1} />
             <directionalLight position={[3, 2, 1]} />
-            <Sphere args={[1, 100, 200]} scale={2.6}>
+            {/* <Sphere args={[1, 100, 200]} scale={2.6}>
               <MeshDistortMaterial
                 color="#31204d"
                 attach="material"
                 distort={0.5}
                 speed={2}
               />
-            </Sphere>
+            </Sphere> */}
           </Canvas>
           <Picture src="/img/laptop.png" alt="" />
         </RightContent>

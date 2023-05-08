@@ -3,15 +3,23 @@ import styled from "styled-components";
 export const Section = styled.div`
   display: flex;
   justify-content: center;
+
+  @media only screen and (max-width: 768px) {
+    width: 100%;
+  }
 `;
 
 export const Conatiner = styled.div`
   width: 1200px;
-  /* background-color: #46bd69; */
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 30px;
+
+  @media only screen and (max-width: 768px) {
+    width: 100%;
+    padding: 10px;
+  }
 `;
 
 export const Links = styled.div`
@@ -25,6 +33,10 @@ export const Logo = styled.div``;
 export const List = styled.ul`
   display: flex;
   gap: 20px;
+
+  @media only screen and (max-width: 768px) {
+    display: none;
+  }
 `;
 
 export const ListItem = styled.li`

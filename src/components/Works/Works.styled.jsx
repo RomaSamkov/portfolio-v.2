@@ -15,12 +15,22 @@ export const Container = styled.div`
   scroll-snap-align: center; */
   display: flex;
   justify-content: space-between;
+
+  @media only screen and (max-width: 768px) {
+    width: 100%;
+    flex-direction: column;
+  }
 `;
 
 export const LeftContent = styled.div`
   flex: 1;
   display: flex;
   align-items: center;
+
+  @media only screen and (max-width: 768px) {
+    padding: 20px;
+    justify-content: center;
+  }
 `;
 export const RightContent = styled.div`
   flex: 1;
@@ -48,6 +58,13 @@ export const WorkItem = styled.li`
   cursor: pointer;
   color: transparent;
   -webkit-text-stroke: 1px #fff;
+
+  @media only screen and (max-width: 768px) {
+    font-size: 24px;
+    color: #fff;
+    -webkit-text-stroke: 0px;
+  }
+
   ::after {
     content: "${(props) => props.text}";
     position: absolute;

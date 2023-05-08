@@ -17,10 +17,18 @@ export const Container = styled.div`
 
 export const LeftContent = styled.div`
   flex: 1;
+
+  @media only screen and (max-width: 768px) {
+    display: none;
+  }
 `;
 
 export const Title = styled.h1`
   font-size: 74px;
+
+  @media only screen and (max-width: 768px) {
+    font-size: 60px;
+  }
 `;
 export const SubTitle = styled.h2`
   font-size: 24px;
@@ -33,6 +41,11 @@ export const RightContent = styled.div`
   justify-content: center;
   gap: 20px;
   flex: 1;
+
+  @media only screen and (max-width: 768px) {
+    align-items: center;
+    text-align: center;
+  }
 `;
 
 export const Img = styled.img`
