@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unknown-property */
 import Navbar from "../Navbar/Navbar";
 import { Canvas } from "@react-three/fiber";
-import { MeshDistortMaterial, OrbitControls, Sphere } from "@react-three/drei";
+import { OrbitControls } from "@react-three/drei";
 import {
   Button,
   Container,
