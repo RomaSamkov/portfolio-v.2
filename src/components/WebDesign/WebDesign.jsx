@@ -3,7 +3,7 @@ import { Canvas } from "@react-three/fiber";
 import { Suspense } from "react";
 
 import Mac from "../Mac/Mac";
-import { Desc } from "../Development/DEvelopment.styled";
+import { Desc } from "../Development/Development.styled";
 
 const WebDesign = () => {
   return (
