@@ -5,6 +5,8 @@ export const Section = styled.div`
   scroll-snap-align: center;
   display: flex;
   justify-content: center;
+  position: relative;
+  color: #555;
 `;
 
 export const Container = styled.div`
